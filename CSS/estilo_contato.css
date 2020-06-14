@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:"Calibri";
+	line-height: 20px;
+	font-size: 50px;
+	color: #FFFFFF;
+}
+
+.topo {
+	background: url("../Imagens/Cabecalho.png");
+	width: 1920px;
+	height: 153px;
+	margin: auto;
+}
+
+.logo{
+	float: left;
+	margin-top: 65px;
+	margin-left: 30px;
+	font-size: 45px;
+}
+
+.topo .menu ul {
+	position: relative;
+	float: right;
+	margin: 55px 50px 0 100px;
+}
+
+.topo .menu ul li {
+	display: inline;
+	padding: 10px 0 0 60px;
+	float: none;
+	font-size:40px;
+}
+
+.topo .menu ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.topo .menu ul li a:hover {
+	color: #C73335;
+	text-decoration: underline;
+}
+
+#fundo_inicial {
+	width: 1920px;
+	height: 797px;
+	margin: 10px auto 20px auto;
+	background: #FFFFFF;
+}
+
+
+.box_text1{
+	width:1700px;
+	height: 554px;
+	float: left;
+	position:relative;
+	margin: 15px 100px 15px 100px;
+	color: #000000;
+}
+
+.box_text1 h1{
+	font-size: 50px;
+	margin-top: 50px;
+	text-align: center;
+	font-weight: bold;
+	line-height: normal;
+}
+
+.box_text1 p {
+	margin-top: 10px;
+	text-align: justify;
+	line-height: normal;
+	font-size: 25px;
+}
+
+.rodape {
+	background: url("../Imagens/Rodape.png");
+	width: 1920px;
+	height: 100px;
+	margin: auto;
+}
+
+.rodape p {
+	float:left;
+	width: 1350px;
+	margin: 40px auto auto 525px;
+	
+}
